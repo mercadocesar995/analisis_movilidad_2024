@@ -67,6 +67,7 @@ La integración de diferentes fuentes permite identificar patrones que no sería
 ## Autor
 
 Cesar Augusto Mercado
+
 Analista de Datos Junior | Comunicador Social y Periodista
 📍 Bogotá, Colombia
 
