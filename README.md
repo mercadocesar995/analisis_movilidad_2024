@@ -53,6 +53,7 @@ ladb_mobility_economy_2024_clean.csv
 ## Cómo reproducir el análisis
 
 Abre notebooks/S5_ladb_mobility_economy_project_student(1).ipynb.
+
 Ejecuta las celdas en orden.
 El notebook carga los datasets utilizados para el análisis de movilidad urbana y economía.
 Al finalizar, se genera el dataset limpio ladb_mobility_economy_2024_clean.csv.
