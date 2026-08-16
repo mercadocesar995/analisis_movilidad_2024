@@ -47,6 +47,7 @@ https://colab.research.google.com/drive/1TTHpoYBEXpmCYYbrxsUkL1Um2gQHYEvu?usp=sh
 
 → Notebook principal con la exploración, limpieza, transformación, integración, visualización y análisis de los datos.
 ladb_mobility_economy_2024_clean.csv
+
 → Dataset final generado después de integrar los indicadores de movilidad y economía para 2024.
 
 
