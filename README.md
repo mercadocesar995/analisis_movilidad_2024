@@ -75,6 +75,7 @@ El análisis se concentra en los datos correspondientes a 2024.
 Abre notebooks/S5_ladb_mobility_economy_project_student(1).ipynb.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1TTHpoYBEXpmCYYbrxsUkL1Um2gQHYEvu?usp=sharing)
+
 Ejecuta las celdas en orden.
 El notebook carga los datasets utilizados para el análisis de movilidad urbana y economía.
 Al finalizar, se genera el dataset limpio ladb_mobility_economy_2024_clean.csv.
