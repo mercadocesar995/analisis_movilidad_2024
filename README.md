@@ -69,6 +69,7 @@ La integración de diferentes fuentes permite identificar patrones que no sería
 Cesar Augusto Mercado
 
 Analista de Datos Junior | Comunicador Social y Periodista
+
 📍 Bogotá, Colombia
 
 Actualmente en formación en Análisis de Datos, con experiencia en análisis de información, elaboración de reportes, comunicación y desarrollo organizacional.
