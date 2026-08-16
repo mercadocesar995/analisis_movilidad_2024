@@ -8,12 +8,14 @@ El proyecto utiliza datos de TomTom Traffic Index y OECD Cities para analizar in
 
 Evaluar cómo los indicadores de movilidad urbana se relacionan con diferentes indicadores de productividad y condiciones económicas en las ciudades analizadas.
 
+
 ## Datos utilizados
 
 El proyecto utiliza dos fuentes principales:
 TomTom Traffic Index → indicadores de tráfico, congestión y tiempos de viaje.
 OECD Cities → indicadores económicos, demográficos y ambientales.
 El análisis se concentra en los datos correspondientes a 2024.
+
 
 ## Principales variables
 
@@ -29,32 +31,50 @@ El análisis se concentra en los datos correspondientes a 2024.
 * Tasa de desempleo
 * Población
 * Calidad del aire (PM2.5)
+  
 
 ## Tecnologías utilizadas
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Jupyter Notebook
-* Google Colab
+- **Python** – Lenguaje principal del análisis.
+  
+- **Pandas** – Manipulación y transformación de datos.
+
+- **NumPy** – Operaciones numéricas.
+
+- **Matplotlib** – Visualización de datos.
+
+- **Jupyter Notebook** – Desarrollo y documentación del análisis.
+
+- **Google Colab** – Ejecución y presentación del notebook.
+
+- **GitHub** – Control y documentación del proyecto.
+
+
+## Principales hallazgos
+
+- Se identificaron diferencias relevantes en los niveles de congestión entre las ciudades analizadas.
+
+- Los indicadores de movilidad presentan variaciones importantes en tiempos de viaje y retrasos.
+  
+- Se observaron diferencias entre las condiciones de movilidad y los indicadores económicos de las ciudades.
+  
+- La integración de indicadores de movilidad y economía permite obtener una visión más completa del contexto urbano.
 
 
 ## Contenido del repositorio
 
-https://colab.research.google.com/drive/1TTHpoYBEXpmCYYbrxsUkL1Um2gQHYEvu?usp=sharing
+`notebooks/S5_Iadb_mobility_economy_project_student(1).ipynb`
+  - Notebook principal con exploración, limpieza, transformación, integración y visualización.
 
-→ Notebook principal con la exploración, limpieza, transformación, integración, visualización y análisis de los datos.
-ladb_mobility_economy_2024_clean.csv
-
-→ Dataset final generado después de integrar los indicadores de movilidad y economía para 2024.
+- `labd_mobility_economy_2024_clean.csv`
+  - Dataset final generado después de integrar los indicadores de movilidad y economía.
 
 
 ## Cómo reproducir el análisis
 
 Abre notebooks/S5_ladb_mobility_economy_project_student(1).ipynb.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1TTHpoYBEXpmCYYbrxsUkL1Um2gQHYEvu?usp=sharing)
 Ejecuta las celdas en orden.
 El notebook carga los datasets utilizados para el análisis de movilidad urbana y economía.
 Al finalizar, se genera el dataset limpio ladb_mobility_economy_2024_clean.csv.
@@ -67,15 +87,15 @@ La integración de diferentes fuentes permite identificar patrones que no sería
 
 ## Autor
 
-Cesar Augusto Mercado
+**César Augusto Mercado**
 
-Analista de Datos Junior | Comunicador Social y Periodista
+Analista de Datos Jr. | Comunicador Social y Periodista
 
 📍 Bogotá, Colombia
 
-Actualmente en formación en Análisis de Datos, con experiencia en análisis de información, elaboración de reportes, comunicación y desarrollo organizacional.
+Actualmente en formación en **Análisis de Datos**, con experiencia en comunicación, elaboración de informes, análisis de información y desarrollo organizacional.
 
-⭐ Proyecto desarrollado como parte del programa de formación en TripleTen – Análisis de Datos.
+Este proyecto fue desarrollado como parte del programa de formación en **TripleTen – Análisis de Datos**.
 
 
 
