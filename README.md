@@ -1,102 +1,51 @@
-# Mobility & Economy Analysis – Sprint 5
+# 🚦 Movilidad Urbana & Economía Internacional — TripleTen (Sprint 5)
 
-Este repositorio contiene el análisis enfocado en estudiar la relación entre la movilidad urbana y los indicadores económicos de ciudades a nivel internacional.
-El proyecto utiliza datos de TomTom Traffic Index y OECD Cities para analizar indicadores de tráfico, tiempos de viaje, congestión, PIB per cápita, desempleo, población y calidad del aire. El objetivo principal es identificar patrones que puedan ayudar a determinar qué ciudades podrían requerir mayor atención e inversión en infraestructura de transporte.
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter_Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
 
+## 🎯 Objetivo del Proyecto
+Evaluar la relación multidimensional entre los indicadores de **movilidad urbana** (congestión, retrasos y tiempos de viaje) y la **productividad socioeconómica** (PIB per cápita, desempleo, población y calidad del aire PM2.5) a nivel internacional, con el fin de identificar patrones clave para la inversión en infraestructura de transporte.
 
-## Objetivo del proyecto
+---
 
-Evaluar cómo los indicadores de movilidad urbana se relacionan con diferentes indicadores de productividad y condiciones económicas en las ciudades analizadas.
+## 🛠️ Tech Stack & Fuentes de Datos
+* **Fuentes de Datos (2024):**
+  * **TomTom Traffic Index:** Métricas de congestión, tiempos de viaje y retrasos viales.
+  * **OECD Cities:** Indicadores macroeconómicos, demográficos y de calidad ambiental.
+* **Herramientas & Librerías:**
+  * **Python (Pandas, NumPy):** Limpieza, ingeniería de variables, fusión de datasets y transformación estructurada.
+  * **Matplotlib:** Exploración gráfica de distribuciones y dispersión.
 
+---
 
-## Datos utilizados
+## 📊 Principales Hallazgos & Resultados
 
-El proyecto utiliza dos fuentes principales:
-TomTom Traffic Index → indicadores de tráfico, congestión y tiempos de viaje.
-OECD Cities → indicadores económicos, demográficos y ambientales.
-El análisis se concentra en los datos correspondientes a 2024.
+| Dimensión Analizada | Indicadores Clave | Patrón Identificado |
+| :--- | :--- | :--- |
+| **Tráfico & Movilidad** | Retrasos, Tiempos de viaje, Longitud de congestión | Variabilidad crítica en la eficiencia del transporte entre metrópolis internacionales. |
+| **Contexto Urbano** | PIB per cápita, Desempleo, Calidad del aire (PM2.5) | Brecha estructural entre la capacidad económica de una ciudad y sus niveles de congestión. |
+| **Integración de Datos** | Dataset consolidado de 2024 | Revela patrones de infraestructura invisibles al estudiar economía y tráfico de forma aislada. |
 
+---
 
-## Principales variables
+## 💡 Conclusiones del Negocio & Habilidades Demostradas
 
-* Movilidad urbana
-* Congestión
-* Retrasos por tráfico
-* Longitud de congestiones
-* Número de congestiones
-* Tiempo de viaje
-* Tiempo adicional de viaje
-* Economía y contexto urbano
-* PIB per cápita
-* Tasa de desempleo
-* Población
-* Calidad del aire (PM2.5)
-  
+### 📌 Impacto en Estrategia y Políticas Públicas
+* **Criterio de Inversión en Infraestructura:** Demuestra que un alto PIB per cápita no necesariamente garantiza un tráfico eficiente, permitiendo priorizar recursos en ciudades donde el costo del retraso vial afecta la productividad local.
+* **Visión Holística del Entorno Urbano:** Combina variables ambientales (PM2.5) con rendimiento económico para soportar decisiones orientadas a la sostenibilidad y reducción del huella de carbono en logística urbana.
 
-## Tecnologías utilizadas
+### 🧠 Capacidades Técnicas Demostradas
+* **Integración y Modelado de Múltiples Fuentes:** Habilidad para homogenizar, cruzar y limpiar estructuras de datos complejas provenientes de dos APIs/organizaciones internacionales distintas (TomTom + OCDE).
+* **Análisis Exploratorio Orientado a Diagnósticos:** Capacidad para transformar datos crudos en un dataset consolidado (`iadb_mobility_economy_2024_clean.csv`) listo para ingesta en tableros de BI o modelos predictivos.
 
-- **Python** – Lenguaje principal del análisis.
-  
-- **Pandas** – Manipulación y transformación de datos.
+---
 
-- **NumPy** – Operaciones numéricas.
+## 📁 Estructura del Repositorio
 
-- **Matplotlib** – Visualización de datos.
-
-- **Jupyter Notebook** – Desarrollo y documentación del análisis.
-
-- **Google Colab** – Ejecución y presentación del notebook.
-
-- **GitHub** – Control y documentación del proyecto.
-
-
-## Principales hallazgos
-
-- Se identificaron diferencias relevantes en los niveles de congestión entre las ciudades analizadas.
-
-- Los indicadores de movilidad presentan variaciones importantes en tiempos de viaje y retrasos.
-  
-- Se observaron diferencias entre las condiciones de movilidad y los indicadores económicos de las ciudades.
-  
-- La integración de indicadores de movilidad y economía permite obtener una visión más completa del contexto urbano.
-
-
-## Contenido del repositorio
-
-`notebooks/S5_Iadb_mobility_economy_project_student(1).ipynb`
-  - Notebook principal con exploración, limpieza, transformación, integración y visualización.
-
-- `labd_mobility_economy_2024_clean.csv`
-  - Dataset final generado después de integrar los indicadores de movilidad y economía.
-
-
-## Cómo reproducir el análisis
-
-Abre notebooks/S5_ladb_mobility_economy_project_student(1).ipynb.
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1TTHpoYBEXpmCYYbrxsUkL1Um2gQHYEvu?usp=sharing)
-
-Ejecuta las celdas en orden.
-El notebook carga los datasets utilizados para el análisis de movilidad urbana y economía.
-Al finalizar, se genera el dataset limpio ladb_mobility_economy_2024_clean.csv.
-
-## Conclusiones
-
-El análisis demuestra la importancia de combinar indicadores de movilidad y variables económicas para obtener una visión más completa de las condiciones urbanas.
-La integración de diferentes fuentes permite identificar patrones que no serían visibles al analizar cada dataset de manera independiente y proporciona una base para futuros análisis de infraestructura, movilidad y desarrollo urbano.
-
-
-## Autor
-
-**César Augusto Mercado**
-
-Analista de Datos Jr. | Comunicador Social y Periodista
-
-📍 Bogotá, Colombia
-
-Actualmente en formación en **Análisis de Datos**, con experiencia en comunicación, elaboración de informes, análisis de información y desarrollo organizacional.
-
-Este proyecto fue desarrollado como parte del programa de formación en **TripleTen – Análisis de Datos**.
-
-
-
+```text
+├── notebooks/
+│   └── S5_ladb_mobility_economy_project_student(1).ipynb  # Cuaderno principal de EDA y ETL
+├── ladb_mobility_economy_2024_clean.csv                   # Dataset final consolidado y limpio
+└── README.md                                              # Documentación del proyecto
